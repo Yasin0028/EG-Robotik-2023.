@@ -1,0 +1,23 @@
+int kirmiziled = 5; 
+int sariled = 4;
+int yesilled = 3;
+
+
+pinMode(kirmiziled, OUTPUT);
+pinMode(sariled, OUTPUT); 
+pinMode(yesilled, OUTPUT);
+
+
+
+
+
+
+digitalWrite(kirmiziled, HIGH); 
+delay(5000); 
+digitalWrite(kirmiziled, LOW); 
+digitalWrite(sariled, HIGH); 
+delay(3000); 
+digitalWrite(sariled, LOW); 
+digitalWrite(yesilled, HIGH); 
+delay(3000); 
+digitalWrite(yesilled, LOW);
